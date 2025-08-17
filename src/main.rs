@@ -25,9 +25,10 @@ fn main() {
     // pronouns
     let sweetie_list = vec![
         "love",
+        "lovely",
         "cutie",
         "girl",
-        "nut",
+        "sweetie",
     ];
 
     // Random sweetie from the list
