@@ -1,0 +1,12 @@
+ignore_list = [130]
+sweetie_list = ["love", "lovely", "cutie", "girl", "sweetie"]
+success_messages = [
+    "amazing work as always",
+    "you are doing amazing",
+    "that's a good {sweetie}",
+    "good job, {sweetie}"
+]
+fail_messages = [
+    "don't worry, {sweetie}. you can do it next time!",
+    "it's okay, {sweetie}. keep trying!"
+]
