@@ -11,7 +11,9 @@ struct Config {
 }
 
 fn load_config() -> Option<Config> {
-    let config_path = "fern.toml";
+    // Get home directory and build config path
+    let home = std::env::var("HOME").ok()?;
+    let config_path = format!("{}/.config/fern/config.toml", home);
     let contents = fs::read_to_string(config_path).ok()?;
     toml::from_str(&contents).ok()
 }
