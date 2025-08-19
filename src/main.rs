@@ -1,5 +1,5 @@
-use rand::prelude::IndexedRandom;
 use std::{env, fs};
+use rand::prelude::IndexedRandom;
 use serde::Deserialize;
 
 #[derive(Deserialize)]
@@ -136,6 +136,8 @@ fn main() {
 
     // random message
     if let Some(msg) = messages_list.choose(&mut rng) {
-        println!("{}", msg);
+        // Replace "{sweetie}" with the selected sweetie
+        let output = msg.replace("{sweetie}", sweetie);
+        println!("{}", output);
     }
 }
