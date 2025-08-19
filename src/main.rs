@@ -47,7 +47,7 @@ fn main() {
     let sweetie_list = config
         .as_ref()
         .and_then(|c| c.sweetie_list.clone())
-        .unwrap_or_else(|| vec!["love".into(), "lovely".into(), "cutie".into(), "girl".into(), "sweetie".into()]);
+        .unwrap_or_else(|| vec!["cutie".into(), "sweetie".into()]);
 
     // Random sweetie from the list
     let mut sweetie: &str = "you";
