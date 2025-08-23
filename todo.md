@@ -1,6 +1,5 @@
 - [ ] command special encouragement
-  - [ ] `cd`
-  - [ ] `ls`
+  - [ ] `cd`/`ls`
   - [ ] `rm`
-  - [ ] `mv`
-  - [ ] `cp`
+  - [ ] `mv`/`cp`
+  - [ ] `kill`/`pkill`/`killall`
