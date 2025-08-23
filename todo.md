@@ -1,0 +1,6 @@
+- [ ] command special encouragement
+  - [ ] `cd`
+  - [ ] `ls`
+  - [ ] `rm`
+  - [ ] `mv`
+  - [ ] `cp`
